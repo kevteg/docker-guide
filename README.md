@@ -19,7 +19,7 @@ This is a guide to run our projects through docker.
 
 **Important**
 
--It is necessary to start the docker daemon as the installation tutorials explain.
+-It is necessary to start the docker daemon as the installation tutorial explain.
 
 -You should add your user to the docker group in order to use it as a normal user (not sudo).
 
@@ -53,5 +53,9 @@ To run any rails command you just need to use docker-compose run, run as usual:
 
 -When adding a new gem to the gemfile just use docker-compose build to run bundle install
 -There are some simple changes necessary to make to the database.yml file (attached in the folder)
+-Using prax is exactly the same thing as usual
 
 ### Develop and have fun ♥
+
+To run the app:
+
