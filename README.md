@@ -1,5 +1,5 @@
 # Docker guide
-This is a guide to run our projects through docker. 
+This is a guide to run nokoarts group projects through docker. 
 
 **Important**
 
@@ -13,7 +13,7 @@ This is a guide to run our projects through docker.
 
 [Arch and derivatives](https://docs.docker.com/engine/installation/linux/archlinux/)
 
-### Installing docker-compose
+### Installing docker-compose:
 
 [Unix](https://docs.docker.com/compose/install/)
 
@@ -37,19 +37,19 @@ After the image is downloaded you will see it within all the docker images you'v
 
 ![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160527_231731.png)
 
-## Use docker compose to pull down the postgres image and make the containers work together!
+## Use docker compose to pull down the postgres image and make the containers work together!:
 
 ![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160528_004529.png)
 
 After the postgres image is downloaded you will be able to run the app!
 
-## Creating the database
+## Creating the database:
 
 To run any rails command you just need to use docker-compose:
 
 ![Running a command inside the container](https://github.com/kevteg/nokoarts-docker-guide/blob/master/images/Screenshot_20160528_005842.png?raw=true)
 
-### To considerate
+### To considerate:
 
 -When adding a new gem to the gemfile just use docker-compose build to run bundle install
 
@@ -63,7 +63,7 @@ To run any rails command you just need to use docker-compose:
 
 ## Develop and have fun ♥
 
-To run the app:
+To **run** the **app**:
 
 ![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160528_004529.png)
 
