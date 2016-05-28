@@ -1,0 +1,8 @@
+FROM rails:4.2.4
+MAINTAINER Kevin Hernandez <kevteg05@gmail.com>
+RUN mkdir -p /var/app
+COPY Gemfile /var/app/Gemfile
+COPY Gemfile.lock /var/app/Gemfile.lock
+WORKDIR /var/app
+RUN bundle install
+CMD bundle exec rails s -b 0.0.0.0
