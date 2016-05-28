@@ -45,7 +45,7 @@ After the postgres image is downloaded you will be able to run the app!
 
 ## Creating the database
 
-To run any rails command you just need to use docker-compose run, run as usual:
+To run any rails command you just need to use docker-compose:
 
 ![Running a command inside the container](https://github.com/kevteg/nokoarts-docker-guide/blob/master/docker/Screenshot_20160528_005842.png?raw=true)
 
@@ -64,5 +64,6 @@ To run any rails command you just need to use docker-compose run, run as usual:
 ### Develop and have fun ♥
 
 To run the app:
+
 ![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160528_004529.png)
 
