@@ -2,6 +2,7 @@
 This is a guide to run our projects through docker. 
 
 **Important**
+
 -This tutorial asumes that you have the dockerfile and docker-compose.yml inside the project folder
 
 ## Install docker and docker-compose:
@@ -17,7 +18,9 @@ This is a guide to run our projects through docker.
 [Unix](https://docs.docker.com/compose/install/)
 
 **Important**
+
 -It is necessary to start the docker daemon as the installation tutorials explain.
+
 -You should add your user to the docker group in order to use it as a normal user (not sudo).
 
 ## Download the project main image using the dockefile:
@@ -27,6 +30,7 @@ This is a guide to run our projects through docker.
 **This will download all the requeriments for _corottos web app_ . It might take a while**
 
 **Important**
+
 -It is necessary to run this inside the project folder with the **dockerfile** inside
 
 After the image is downloaded you will see it within all the docker images you've download:
