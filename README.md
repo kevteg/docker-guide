@@ -19,11 +19,9 @@ This is a guide to run [nokoarts group](http://nokoarts.com/) projects through d
 
 > **Δ Important**
 
-> 	  •It is necessary to start the
-> [docker daemon](https://docs.docker.com/engine/admin/systemd/).
+> 	  •It is necessary to start the [docker daemon](https://docs.docker.com/engine/admin/systemd/).
 
->     •You should add your user to the 
-> [docker group](https://docs.docker.com/engine/installation/linux/ubuntulinux/#create-a-docker-group) 
+>     •You should add your user to the [docker group](https://docs.docker.com/engine/installation/linux/ubuntulinux/#create-a-docker-group) 
 
 ## Download the project main image using the dockefile:
 ```sh
