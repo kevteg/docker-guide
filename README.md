@@ -19,14 +19,16 @@ This is a guide to run [nokoarts group](http://nokoarts.com/) projects through d
 
 > **Δ Important**
 
-> 	  •It is necessary to start the [docker daemon](https://docs.docker.com/engine/admin/systemd/) to use docker.
+> 	  •It is necessary to start the
+> [docker daemon](https://docs.docker.com/engine/admin/systemd/).
 
->     •You should add your user to the [docker group](https://docs.docker.com/engine/installation/linux/ubuntulinux/#create-a-docker-group) in order to use it as a normal user (not sudo).
+>     •You should add your user to the 
+> [docker group](https://docs.docker.com/engine/installation/linux/ubuntulinux/#create-a-docker-group) 
 
 ## Download the project main image using the dockefile:
-
-> $ docker build corottos .  #Dont forget the dot! ;)
-
+```sh
+ $ docker build corottos .  #Dont forget the dot! ;)
+```
 **This will download all the requeriments for _corottos web app_ . It might take a while**
 
 > **Δ Important**
@@ -41,16 +43,18 @@ After the image is downloaded you will see it within all the docker images you'v
 Docker compose is a tool to run multi-container Docker applications. 
 
 ### Pull down the postgres image through docker-compose:!
-
-> $ docker-compose up
-
+```sh
+$ docker-compose up
+```
 After the postgres image is downloaded you will be able to run the app!
 
 ## Creating the database:
 
 To run any rails command you just need to use docker-compose:
+```sh
+ $ docker-compose run corottos rake db:create db:migrate
+```
 
-> $ docker-compose run corottos rake db:create db:migrate
 
 > ### ☞ To considerate:
 
@@ -60,13 +64,14 @@ To run any rails command you just need to use docker-compose:
 
 >    •Using **[prax](https://github.com/ysbaddaden/prax)** is exactly the **same thing as usual**
 
->    -[Docker compose documentation](https://docs.docker.com/compose/)
+>    •[Docker compose documentation](https://docs.docker.com/compose/)
 
->     -[Docker documentation](https://docs.docker.com/engine/quickstart/)
+>    •[Docker documentation](https://docs.docker.com/engine/quickstart/)
 
 ## Develop and have fun ♥
 
 To **run** the **app**:
 
-![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160528_004529.png)
-
+```sh
+$ docker-compose up
+```
