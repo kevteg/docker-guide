@@ -25,7 +25,7 @@ This is a guide to run our projects through docker.
 
 ## Download the project main image using the dockefile:
 
-![Creating corottos images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_225326.png)
+![Creating corottos image](https://github.com/kevteg/nokoarts-docker-guide/blob/master/images/Screenshot_20160527_225326.png?raw=true)
 
 **This will download all the requeriments for _corottos web app_ . It might take a while**
 
@@ -35,11 +35,11 @@ This is a guide to run our projects through docker.
 
 After the image is downloaded you will see it within all the docker images you've download:
 
-![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_231731.png)
+![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160527_231731.png)
 
 ## Use docker compose to pull down the postgres image and make the containers work together!
 
-![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160528_004529.png)
+![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160528_004529.png)
 
 After the postgres image is downloaded you will be able to run the app!
 
@@ -47,7 +47,7 @@ After the postgres image is downloaded you will be able to run the app!
 
 To run any rails command you just need to use docker-compose:
 
-![Running a command inside the container](https://github.com/kevteg/nokoarts-docker-guide/blob/master/docker/Screenshot_20160528_005842.png?raw=true)
+![Running a command inside the container](https://github.com/kevteg/nokoarts-docker-guide/blob/master/images/Screenshot_20160528_005842.png?raw=true)
 
 ### To considerate
 
@@ -65,5 +65,5 @@ To run any rails command you just need to use docker-compose:
 
 To run the app:
 
-![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160528_004529.png)
+![Docker compose](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160528_004529.png)
 
