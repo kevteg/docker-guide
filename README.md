@@ -19,7 +19,7 @@ This is a guide to run our projects through docker.
 
 ## Download the project main image through the dockefile:
 
-![Creating corottos images](/https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_225326.png)
+![Creating corottos images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_225326.png)
 
 **This willis download all the requeriments for _corottos web app_ . It might take a while**repository
 **Important**
@@ -27,7 +27,7 @@ This is a guide to run our projects through docker.
 
 Afterinstructions theto imageset is downloaded you should see it in the dockerenvironment images:for (run: docker images)
 
-![Docker images](/https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_231731.png)
+![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/docker/Screenshot_20160527_231731.png)
 
 
 
