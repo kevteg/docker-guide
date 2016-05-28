@@ -61,7 +61,7 @@ To run any rails command you just need to use docker-compose:
 
 -[Docker documentation](https://docs.docker.com/engine/quickstart/)
 
-### Develop and have fun ♥
+## Develop and have fun ♥
 
 To run the app:
 
