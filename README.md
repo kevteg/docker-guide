@@ -36,7 +36,7 @@ This is a guide to run [nokoarts group](http://nokoarts.com/) projects through d
 
 After the image is downloaded you will see it within all the docker images you've download:
 
-![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/Screenshot_20160527_231731.png)
+![Docker images](https://raw.githubusercontent.com/kevteg/nokoarts-docker-guide/master/images/images.png)
 
 ## Docker compose
 Docker compose is a tool to run multi-container Docker applications. 
