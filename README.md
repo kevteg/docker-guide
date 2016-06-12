@@ -26,7 +26,7 @@ This is a simple guide to use docker.
 
 ## Download the project main image using the dockefile:
 ```sh
- $ docker build corottos .  #Dont forget the dot! ;)
+ $ docker build .  #Dont forget the dot! ;)
 ```
 **This will download all the requeriments for _corottos web app_ . It might take a while**
 
