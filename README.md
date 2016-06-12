@@ -1,5 +1,5 @@
 # Docker guide
-This is a guide to run [nokoarts group](http://nokoarts.com/) projects through docker.
+This is a simple guide to use docker.
 
 > **Δ Important**
 
