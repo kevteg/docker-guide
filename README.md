@@ -74,3 +74,18 @@ To **run** the **app**:
 ```sh
 $ docker-compose up
 ```
+
+## Connecting to the database with pgadmin
+
+It is really easy to connect! Just forward the ports in the docker-compose file: (already on example files)
+
+```sh
+db:
+  image: postgres
+  ports:
+    - '0.0.0.0:5432:5432'
+ ...
+```
+And connect to localhost/your_ip:5432 through pgadmin!
+
+
