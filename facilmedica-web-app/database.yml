@@ -1,0 +1,28 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  host: db
+
+development:
+  <<: *default
+  database: facilmedica_development
+  username: postgres
+
+ # username: faciluser
+ # password:
+
+
+test:
+  <<: *default
+  database: facilmedica_test
+  username: postgres
+
+production:
+  <<: *default
+  database: facilmedica_production
+  username: facilmedica
+  password: <%= ENV['FACILMEDICA_DATABASE_PASSWORD'] %>
