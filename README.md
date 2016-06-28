@@ -40,6 +40,9 @@ After the image is downloaded you will see it within all the docker images you'v
 
 ## Docker compose
 Docker compose is a tool to run multi-container Docker applications. 
+ > **Δ Important**
+
+>     •It is necessary to change the docker-compose.yml file. Change the working directory to yours
 
 ### Pull down the postgres image through docker-compose:!
 ```sh
